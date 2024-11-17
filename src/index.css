@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type="number"] {
+    @apply px-3 py-2;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
