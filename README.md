@@ -38,7 +38,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-repo>/mysql-memory-calculator.git
+   git clone https://github.com/releem/mysql-memory-calculator.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -73,7 +73,7 @@ To contribute, please fork the repository, create a feature branch, and submit a
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## Support
 
