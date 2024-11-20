@@ -1,4 +1,4 @@
-# MySQL Memory Calculator by Releem
+# MySQL Memory Calculator
 
 ## Overview
 
