@@ -12,7 +12,7 @@ function App() {
           <div className="flex items-center gap-3">
             <Calculator className={`w-8 h-8 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`} />
             <h1 className={`text-3xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-              MySQL Memory Calculator
+              
             </h1>
           </div>
           <button
@@ -30,7 +30,7 @@ function App() {
         </main>
 
         <footer className={`mt-8 text-center text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-          <p>Built with React and Tailwind CSS • Powered by StackBlitz</p>
+          <p></p>
         </footer>
       </div>
     </div>
