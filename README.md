@@ -26,6 +26,10 @@ The MySQL Memory Calculator is an open-source tool built to help DBAs and develo
 Try the live version of the calculator here:  
 👉 [MySQL Memory Calculator](https://releem.com/tools/mysql-memory-calculator)
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/releem/mysql-memory-calculator/master/assets/MySQLMemoryCalculator_demo.gif" width="90%">
+</p>
+
 ## Usage
 
 1. Enter the MySQL configuration parameters relevant to your setup.
