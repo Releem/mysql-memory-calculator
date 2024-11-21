@@ -166,35 +166,36 @@ const MemoryCalculator: React.FC<Props> = ({ darkMode }) => {
             <h3 className={`text-lg font-semibold mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
               Global Buffers
             </h3>
-            {renderInput('innodb_buffer_pool_size', 'InnoDB Buffer Pool Size', 
+            {renderInput('innodb_buffer_pool_size', 'innodb_buffer_pool_size', 
               'Memory used to cache table and index data')}
-            {renderInput('innodb_log_buffer_size', 'InnoDB Log Buffer Size',
+            {renderInput('innodb_log_buffer_size', 'innodb_log_buffer_size',
               'Memory used for transaction log operations')}
-            {renderInput('key_buffer_size', 'Key Buffer Size',
+            {renderInput('key_buffer_size', 'key_buffer_size',
               'Buffer for MyISAM table indexes')}
-            {renderInput('query_cache_size', 'Query Cache Size',
+            {renderInput('query_cache_size', 'query_cache_size',
               'Memory allocated for caching query results')}
-            {renderInput('tmp_table_size', 'Temporary Table Size',
-              'Maximum size for in-memory temporary tables')}
           </div>
 
-          {renderInput('max_connections', 'Max Connections',
+
+          {renderInput('max_connections', 'max_connections',
             'Maximum number of simultaneous client connections', false)}
 
           <div>
             <h3 className={`text-lg font-semibold mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
               Per-Connection Settings
             </h3>
-            {renderInput('sort_buffer_size', 'Sort Buffer Size',
+            {renderInput('sort_buffer_size', 'sort_buffer_size',
               'Memory allocated for sorting operations per connection')}
-            {renderInput('read_buffer_size', 'Read Buffer Size',
+            {renderInput('read_buffer_size', 'read_buffer_size',
               'Buffer used for sequential table scans')}
-            {renderInput('read_rnd_buffer_size', 'Random Read Buffer Size',
+            {renderInput('read_rnd_buffer_size', 'read_rnd_buffer_size',
               'Buffer for reading rows in sorted order')}
-            {renderInput('join_buffer_size', 'Join Buffer Size',
+            {renderInput('join_buffer_size', 'join_buffer_size',
               'Buffer used for joins without indexes')}
-            {renderInput('thread_stack', 'Thread Stack',
+            {renderInput('thread_stack', 'thread_stack',
               'Stack size for each connection thread')}
+            {renderInput('tmp_table_size', 'tmp_table_size',
+              'Maximum size for in-memory temporary tables')}            
           </div>
         </div>
       </div>

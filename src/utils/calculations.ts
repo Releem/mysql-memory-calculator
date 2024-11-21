@@ -31,15 +31,15 @@ export const calculateTotalMemory = (variables: any) => {
     variables.innodb_buffer_pool_size +
     variables.innodb_log_buffer_size +
     variables.key_buffer_size +
-    variables.query_cache_size +
-    variables.tmp_table_size;
+    variables.query_cache_size;
 
   const perConnectionBuffers = 
     variables.sort_buffer_size +
     variables.read_buffer_size +
     variables.read_rnd_buffer_size +
     variables.join_buffer_size +
-    variables.thread_stack;
+    variables.thread_stack +
+    variables.tmp_table_size;
 
   const totalPerConnection = perConnectionBuffers * variables.max_connections;
   const total = globalBuffers + totalPerConnection;
