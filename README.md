@@ -81,7 +81,7 @@ This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) f
 
 ## Support
 
-For any issues or feature requests, feel free to open an issue on the GitHub repository or contact us at [support@releem.com](mailto:support@releem.com).
+For any issues or feature requests, feel free to open an issue on the GitHub repository.
 
 ## Learn More
 
